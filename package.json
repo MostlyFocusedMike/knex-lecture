@@ -1,0 +1,22 @@
+{
+  "name": "knex-lecture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "knex:init": "knex init",
+    "migrate:make": "knex migrate:make",
+    "migrate": "knex migrate:latest",
+    "rollback": "knex migrate:rollback",
+    "seed:make": "knex seed:make",
+    "seed": "knex seed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "knex": "^2.5.1",
+    "pg": "^8.11.3"
+  }
+}
