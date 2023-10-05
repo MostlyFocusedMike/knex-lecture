@@ -2,9 +2,9 @@
   "name": "knex-lecture",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js",
     "knex:init": "knex init",
     "migrate:make": "knex migrate:make",
     "migrate": "knex migrate:latest",
@@ -16,6 +16,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.3.1",
     "knex": "^2.5.1",
     "pg": "^8.11.3"
   }
